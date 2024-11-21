@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "nnt"
+version = "0.1.0"
+description = "Neural Network Toolkit - A collection of functions to aid in data science-related work."
+authors = ["Mac Szankin <maciej@szankin.pl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
